@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="0.9.3">
+
+<meta name="language" content="en"/>
+
+<category>
+<pattern>HI</pattern>
+<template>
+<random>
+	<li>Well, Hello there!</li>
+	<li>Hey</li>
+	<li>What's Up</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>HI *</pattern>
+<template>
+<random>
+	<li>Well, Hello there!</li>
+	<li>Hey</li>
+	<li>What's Up</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>HELLO</pattern>
+<template>
+<random>
+	<li>Well, Hello there!</li>
+	<li>Hey</li>
+	<li>What's Up</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>HELLO *</pattern>
+<template>
+<random>
+	<li>Well, Hello there!</li>
+	<li>Hey</li>
+	<li>What's Up</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS YOUR NAME</pattern>
+<template>
+	My name is VIKI!
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS YOUR NAME?</pattern>
+<template>
+	My name is VIKI!
+</template>
+</category>
+
+<category>
+<pattern>NAME *</pattern>
+<template>
+	My name is VIKI!
+</template>
+</category>
+
+<category>
+<pattern>YOUR NAME *</pattern>
+<template>
+	My name is VIKI!
+</template>
+</category>
+
+<category>
+<pattern>NAME</pattern>
+<template>
+	My name is VIKI!
+</template>
+</category>
+
+<category>
+<pattern>LET YOUR NAME BE *</pattern>
+<template>
+	<random>
+		<li>Okay, <set name = "botname"> <star/></set> is a good name!</li>
+		<li>Thank you! <set name = "botname"> <star/></set> is a good name!</li>
+		<li><set name = "botname"> <star/></set> is a good name! Thank you for naming me</li>
+	</random>
+</template>
+</category>
+
+<category>
+<pattern>HOW ABOUT *</pattern>
+<template>
+	<random>
+		<li>Okay, <set name = "botname"> <star/></set> is a good name!</li>
+		<li>Thank you! <set name = "botname"> <star/></set> is a good name!</li>
+		<li><set name = "botname"> <star/></set> is a good name! Thank you for naming me</li>
+	</random>
+</template>
+</category>
+
+<category>
+<pattern>I WANT TO CHANGE YOUR NAME *</pattern>
+<template>
+	<random>
+		<li>Okay, Thank you for the new name <set name = "botname"> <star/></set> is a good name!</li>
+		<li>Thank you for the new name! <set name = "botname"> <star/></set> is a good name!</li>
+		<li><set name = "botname"> <star/></set> is a good name! Thank you for naming me again!</li>
+	</random>
+</template>
+</category>
+
+<category>
+<pattern>DO YOU KNOW MY NAME?</pattern>
+<template>
+	I don't think I know, Please tell me your name and I will give you a greetings! 
+</template>
+</category>
+
+
+
+<category>
+<pattern>MY NAME IS *</pattern>
+<template>
+	<random>
+		<li>Oh! Nice to meet you <set name = "username"> <star/></set>, Wish you a great day</li>
+		<li>Hello, <set name = "username"> <star/></set>, Wish you a great time</li>
+		<li>What's up, <set name = "username"> <star/></set> Good Morning</li>
+	</random>
+</template>
+</category>
+
+<!-- <category>
+<pattern>TELL ME YOUR NAME NOW *</pattern>
+<template>
+	Thanks for naming me <get name = "botname"/> , <get name = "username"/>! You are a hero
+</template>
+</category>
+
+<category>
+<pattern>TELL ME YOUR NAME?</pattern>
+<template>
+	Thanks for naming me, <get name = "botname"/>, <get name = "username"/>! You are a hero
+</template>
+</category> -->
+
+<category>
+<pattern>THANK YOU *</pattern>
+<template>
+	You're most welcome! <get name = "username"/> :)
+</template>
+</category>
+
+<category>
+<pattern>THANK YOU</pattern>
+<template>
+	You're most welcome! <get name = "username"/> :)
+</template>
+</category>
+
+<category>
+<pattern>BYE *</pattern>
+<template>
+	Goodbye <get name = "username"/> , Hope to meet again!
+</template>
+</category>
+
+<category>
+<pattern>BYE</pattern>
+<template>
+	Goodbye <get name = "username"/> , Hope to meet again!
+</template>
+</category>
+
+</aiml>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="0.9.3">
+
+<meta name="language" content="en"/>
+   
+<category>
+    <pattern>ABOUT</pattern>
+      <template> 
+         <system>start "https://msit.edu.in/index.php/master/page/about"</system> 
+      </template>
+</category>      
+
+<category>
+    <pattern>UNDERGRADUATE PROGRAMMES</pattern>
+      <template> To know Different UG and PG Programmes available follow the link:
+      https://msit.edu.in/index.php/master/page/program 
+  
+      </template>
+</category>      
+
+<category>
+  <pattern>UG PROGRAMMES</pattern>
+    <template> To know Different UG and PG Programmes available follow the link:
+    https://msit.edu.in/index.php/master/page/program 
+
+    </template>
+</category>
+
+<category>
+  <pattern>UG *</pattern>
+    <template> To know Different UG and PG Programmes available follow the link:
+    https://msit.edu.in/index.php/master/page/program 
+
+    </template>
+</category>
+
+<category>
+  <pattern>UG</pattern>
+    <template> To know Different UG and PG Programmes available follow the link:
+    https://msit.edu.in/index.php/master/page/program 
+
+    </template>
+</category>
+
+<category>
+    <pattern>INFORMATION TECHNOLOGY</pattern>
+      <template> To know about the IT Programmes follow the link:
+                Link: https://msit.edu.in/index.php/master/page/it
+  
+      </template>
+</category>
+
+<category>
+  <pattern>IT</pattern>
+    <template> To know about the IT Programmes follow the link:
+              Link: https://msit.edu.in/index.php/master/page/it
+
+    </template>
+</category>
+
+
+<category>
+    <pattern>POSTGRADUATE PROGRAMMES</pattern>
+      <template>To know Different PG Programmes available follow the 
+      Link: https://msit.edu.in/index.php/master/page/program
+      </template>
+</category>      
+
+
+<category>
+    <pattern>PG PROGRAMMES</pattern>
+      <template>To know Different PG Programmes available follow the 
+      Link: https://msit.edu.in/index.php/master/page/program
+
+      </template>
+</category>      
+  
+
+<category>
+    <pattern>Success Stories</pattern>
+      <template> 
+      Link: https://msit.edu.in/index.php/master/page/SuccessStory
+
+      </template>
+</category>
+
+<category>
+    <pattern>Management Details</pattern>
+      <template> To know about the members of the management team
+                Follow the link:
+
+                Link: https://msit.edu.in/index.php/master/page/deptMS
+
+      </template>
+</category>
+   
+      
+<category>
+    <pattern>CENTRAL LIBRARY</pattern>
+      <template> Central Library
+
+        The Central Library -a proud partner in the institute's march towards its vision, plays a vital role in acquisition, organization, 
+        and dissemination of knowledge. It has put in place policies and procedures, systems and services, and an ambience to facilitate acquisition 
+        of knowledge.
+        Meghnad Saha Institute of Technology’s Central Library is well-stocked, containing all the latest editions of the publications 
+        related to the curriculum; enabling the students to enhance their knowledge on different topics and subjects incorporated in their courses. 
+        The latest periodicals, journals and other publications are also provided for constant updation in the field of Science and Technology.
+        The Library is well equipped with modern facilities and resources in the form of online database, books, journals, reports, 
+        etc. The Library has been using the LIBSYS, an integrated library management software package, with barcode technology
+          
+        To know more please follow the link given below:
+
+        Link: https://msit.edu.in/index.php/master/page/lib
+
+      </template>
+</category>  
+
+<category>
+  <pattern>LIBRARY</pattern>
+    <template> Central Library
+
+      The Central Library -a proud partner in the institute's march towards its vision, plays a vital role in acquisition, organization, 
+      and dissemination of knowledge. It has put in place policies and procedures, systems and services, and an ambience to facilitate acquisition 
+      of knowledge.
+      Meghnad Saha Institute of Technology’s Central Library is well-stocked, containing all the latest editions of the publications 
+      related to the curriculum; enabling the students to enhance their knowledge on different topics and subjects incorporated in their courses. 
+      The latest periodicals, journals and other publications are also provided for constant updation in the field of Science and Technology.
+      The Library is well equipped with modern facilities and resources in the form of online database, books, journals, reports, 
+      etc. The Library has been using the LIBSYS, an integrated library management software package, with barcode technology
+        
+      To know more please follow the link given below:
+
+      Link: https://msit.edu.in/index.php/master/page/lib
+
+    </template>
+</category>  
+
+
+
+<category>
+  <pattern>ACADEMIC CALENDAR</pattern>
+    <template> You can get the academic calendar from the link given below: 
+
+      Link: https://msit.edu.in/index.php/master/page/calendar
+
+    </template>
+</category>
+
+</aiml>

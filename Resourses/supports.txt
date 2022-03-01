@@ -1,0 +1,46 @@
+# To increase the startup speed of the bot it is
+# possible to save the parsed aiml files as a
+# dump. This code checks if a dump exists and
+# otherwise loads the aiml from the xml files
+# and saves the brain dump.
+
+# Endless loop which passes the input to the bot and prints
+# its response
+
+
+Aiml tags:
+
+<star index="N"/> - replaced with value of * in pattern (or Nth *)
+<that index="M,N"/> - replaced with value of bot's previous response (or Mth previous response, and N sentence of the response)
+<input index="N"/> - replaced with value of users's input (or Nth *)
+<thatstar index="N"/> - replaced with value of * in "that" (or Nth *)
+<topicstar index="N"/> - replaced with value of * in topic (or Nth *)
+<get name="XXX"/> - replaced by the value of the conversation specific variable
+<bot name="XXX"/> - replaced by the value of the bot specific variable
+<sr/> - short form for <srai><star/><srai> (replaced with response to value of * from pattern)
+<person2/> - converts the text (or <star/>) between 1st and 2nd person (I <-> he, etc.)
+<person/> - converts the text (or <star/>) between 1st and 3rd person (I <-> you, etc.)
+<gender/> - converts the text (or <star/>) between male and female (he <-> she)
+<date/> - replaced with the current date and time, a "format" attribute is also supported
+<id/> - replaced by the client id
+<size/> - replaced with the size of bot's memory
+<version/> - replaced with the AI engine version
+<uppercase> - converts the text to uppercase
+<lowercase> - converts the text to lowercase
+<formal> - converts all words in the text to be capitalized
+<sentence> - converts the first word in the text to be capitalized
+<condition name="X" value="Y"> - defines an "if" condition based on comparing the value of a variable to a pattern
+<condition name="X"> - case statement
+<condition> - multi-valued if/else statement
+<random> - choose on of the nested <li> values at random
+<li name="X" value="Y"> - used in random and condition tags
+<li value="Y"> - used in random and condition tags
+<li> - used in random and condition tags
+<set name="XXX"> - set the value of a variable
+<gossip> - logs the text
+<srai> - recursively evaluates the text and replaces it with the response
+<think> - evaluates the nested statements but does not output any result
+<learn> - load external AIML file, this is not currently allowed
+<system> - executes a OS command, this is not currently allowed
+<javascript> - executes JavaScript code
+HTML - various HTML tags are also allowed (<b>, <a>, <i>, <ul>, <li>, <p>, <br>)
