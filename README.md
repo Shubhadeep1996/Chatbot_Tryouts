@@ -7,4 +7,4 @@
 - 'wordnet' should be installed under nltk package
 - Depending on the OS and IDE, all relative file-paths ('pythonsqlite.db', etc.) might need to be replaced by absolute paths ('C:/..pythonsqlite.db', etc.)
 - Run the main_with_session.py file
-- Here is the link to the implementation video: https://youtu.be/-RvEnQCwpNE
+
